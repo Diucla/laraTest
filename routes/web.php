@@ -12,6 +12,11 @@
 */
 
 Route::get('/', function () {
+	flash('Some message');
+
+
+	dd(Session::all());
+	
     return view('welcome');
 });
 
