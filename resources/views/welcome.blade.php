@@ -78,6 +78,12 @@
             @endif
 
             <div class="content">
+
+        <!-- ================================================ -->
+        <!-- ==== Recommended place for admin menu items ==== -->
+        <!-- ================================================ -->
+        <li><a href="{{ url('admin/tag') }}"><i class="fa fa-tag"></i> <span>Manage Tags</span></a></li>
+                        
                 <div class="title m-b-md">
                     Ola mundo!
                 </div>

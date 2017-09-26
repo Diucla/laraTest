@@ -37,6 +37,9 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->mapApiRoutes();
 
+        // Register CRUD routes
+        $this->mapAdminRoutes();
+
         $this->mapWebRoutes();
 
         //
