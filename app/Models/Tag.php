@@ -36,10 +36,10 @@ class Tag extends Model
 	|--------------------------------------------------------------------------
 	*/
 
-	public function articles()
-    {
-        return $this->hasMany('App\Models\Article', 'article_tag');
-    }
+	// public function articles()
+ //    {
+ //        return $this->hasMany('App\Models\Article', 'article_tag');
+ //    }
 
 	/*
 	|--------------------------------------------------------------------------
